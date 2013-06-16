@@ -1,4 +1,5 @@
-SM RailsCast 328
+<<<<<<< HEAD
+SM RailsCast 329
 ================
 
 How to add Bootstrap...
@@ -12,17 +13,19 @@ Clone repository
 ```
 git clone 
 
-git clone https://bitbucket.org/sweetymehta/sm_rc328
+git clone https://github.com/sweetymehta/sm_rc329.git
 ```
 Go to app's folder
 ```
-cd sm_rc70
+cd sm_rc329
 ``
 Make changes to gemfile
 ```
 gem 'twitter-bootstrap-rails'
 
 gem 'less-rails'
+gem 'simple_form'
+
 ```
 scaffolding
 ```
@@ -33,9 +36,30 @@ open terminal
 rails g bootstrap:install
 rails g bootstrap:themed view -f `to force any view to applied with bootstrap`
 create nav-bar
+
+rails g simpleform:install --bootstrap
 #todo
+``
+Edit form.html.erb
 ```
+simple_form_for
+checkout railscast sm_rc234
+#todo..
+```
+
+to add alert messages
+```
+check each flash message
+display msg accordingly
+data dismiss on close
+#to-do..
+```
+
 Run `rails` server
 ```
 rails s
 ```
+=======
+sm_rc329
+========
+>>>>>>> 34bb6d4f20cff62c40e57db0b637a5bf0ae84ecc

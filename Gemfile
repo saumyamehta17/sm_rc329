@@ -24,7 +24,7 @@ end
 gem 'jquery-rails'
 gem 'quiet_assets' , :group => [:development]
 gem 'thin'
-
+gem 'simple_form'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
