@@ -18,11 +18,10 @@ git clone https://github.com/sweetymehta/sm_rc329.git
 Go to app's folder
 ```
 cd sm_rc329
-``
+```
 Make changes to gemfile
 ```
 gem 'twitter-bootstrap-rails'
-
 gem 'less-rails'
 gem 'simple_form'
 ```
@@ -37,7 +36,7 @@ rails g bootstrap:themed view -f `to force any view to applied with bootstrap`
 create nav-bar
 rails g simpleform:install --bootstrap
 #todo
-``
+```
 Edit form.html.erb
 ```
 simple_form_for
