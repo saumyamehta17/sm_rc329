@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmRc328</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<div class="navbar navbar-inverse">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span></a>
+        <div class="nav-collapse">
+      <a class="brand" href="#">Title</a>
+      <ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="span9">
+     <%= yield %>
+    </div>
+    <div class="span3">
+      <h2>Bootstrap</h2>
+      It was developed by 'Mark Otto'..
+      It is free colllection of tools for creating websites and web application.
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
